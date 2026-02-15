@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "extraction-engine"
+version = "0.1.0"
+description = "PDF extraction helpers powered by PyMuPDF"
+requires-python = ">=3.11"
+dependencies = ["PyMuPDF==1.24.12"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

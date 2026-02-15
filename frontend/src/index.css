@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.btn {
+  @apply rounded border border-slate-600 bg-slate-800 px-2 py-1 text-xs hover:bg-slate-700;
+}
